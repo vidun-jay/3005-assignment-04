@@ -3,7 +3,7 @@
 # Database Interaction with PostgreSQL and Application Programming
 
 ## Table Setup and Initialization
-First, ensure that the PostGresql is running on the local host. Then, create a database in pgAdmin called `assignment-04` and run the following SQL query to create the table:
+First, ensure that the PostgreSQL is running on the local host. Then, create a database in pgAdmin called `assignment-04` and run the following SQL query to create the table:
 
 
 ```sql
