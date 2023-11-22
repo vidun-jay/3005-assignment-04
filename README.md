@@ -1,3 +1,5 @@
+![Static Badge](https://img.shields.io/badge/3.9?style=python)
+
 # Database Interaction with PostgreSQL and Application Programming
 
 ## Table Setup and Initialization
