@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/python-3.9-blue)
+![](https://img.shields.io/badge/python-3.9-blue) ![](https://badgen.net/badge/icon/postgresql?icon=postgresql&label)
 
 # Database Interaction with PostgreSQL and Application Programming
 
