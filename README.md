@@ -84,3 +84,6 @@ student_id (string): The ID of the student to be deleted.
 - **Description:** Displays the menu options for the application.
 
 - **Usage:** Invoked to show the main menu options to the user.
+
+## Demo
+[![Demo Video](https://img.youtube.com/vi/Y0qW-XDyTNk/maxresdefault.jpg)](https://youtu.be/Y0qW-XDyTNk)
