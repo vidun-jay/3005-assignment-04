@@ -174,14 +174,26 @@ def main():
         if choice == '1':
             getAllStudents()
         elif choice == '2':
-            student = input('Enter the student details (first_name, last_name, email, enrollment_date): ').split(', ')
-            addStudent(*student)
+            try:
+                student = input('Enter the student details (first_name, last_name, email, enrollment_date): ').split(', ')
+                addStudent(*student)
+            except Exception as e:
+                print(f'{colors.RED}Invalid input. Please restart the program.{colors.NC}')
+                break
         elif choice == '3':
-            email = input('Enter the student id and updated email (student_id, updated_email): ').split(', ')
-            updateStudentEmail(*email)
+            try:
+                email = input('Enter the student id and updated email (student_id, updated_email): ').split(', ')
+                updateStudentEmail(*email)
+            except Exception as e:
+                print(f'{colors.RED}Invalid input. Please restart the program.{colors.NC}')
+                break
         elif choice == '4':
-            student_id = input('Enter the student id of the student to delete: ')
-            deleteStudent(student_id)
+            try:
+                student_id = input('Enter the student id of the student to delete: ')
+                deleteStudent(student_id)
+            except Exception as e:
+                print(f'{colors.RED}Invalid input. Please restart the program.{colors.NC}')
+                break
 
         quit = input("Would you like to close the program? (y/n): ")
         if quit == 'y':
