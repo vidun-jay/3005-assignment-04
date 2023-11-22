@@ -1,4 +1,4 @@
-![Static Badge](https://img.shields.io/badge/3.9?style=python)
+![](https://img.shields.io/badge/python-3.9-blue)
 
 # Database Interaction with PostgreSQL and Application Programming
 
